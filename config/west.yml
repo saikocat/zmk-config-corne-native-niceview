@@ -5,6 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
+      # Tracks ZMK main (Zephyr 4.1, development branch). Keep in sync with .github/workflows/build.yml.
       revision: main
       import: app/west.yml
   self:
